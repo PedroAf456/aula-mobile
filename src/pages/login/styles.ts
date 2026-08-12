@@ -20,5 +20,11 @@ export const style = StyleSheet.create({
         height:200,
         width:'100%',
         backgroundColor:'blue'
+    },
+    logo:{
+        width:80,
+        height:80,
+        resizeMode:"contain"
+
     }
 })

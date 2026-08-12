@@ -14,7 +14,15 @@ export default function Login(){
         <View style={style.container}>
 
             <View style={style.boxTop}>
-                <Text>TOP</Text>
+
+                <Image>
+                    source={Logo}
+                    style={style.logo}
+                </Image>
+
+
+
+                <Text>Bem vindo de volta</Text>
             </View>
 
             <View style={style.boxMid}>
