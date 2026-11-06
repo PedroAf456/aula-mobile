@@ -1,0 +1,11 @@
+import { StyleSheet } from 'react-native';
+export const styles = StyleSheet.create({
+  container: { flex: 1, backgroundColor: '#F4F7F5' }, content: { padding: 20, paddingBottom: 32 },
+  intro: { marginBottom: 20 }, iconBox: { width: 52, height: 52, borderRadius: 16, backgroundColor: '#E1F1E8', alignItems: 'center', justifyContent: 'center', marginBottom: 15 },
+  heading: { fontSize: 25, fontWeight: '700', color: '#1D2B24' }, subtitle: { fontSize: 14, color: '#758078', marginTop: 6 },
+  summaryRow: { flexDirection: 'row', gap: 12, marginBottom: 25 }, summaryCard: { flex: 1, backgroundColor: '#FFFFFF', borderRadius: 14, padding: 16, elevation: 1 }, summaryNumber: { fontSize: 26, fontWeight: '800', color: '#287A55' }, summaryLabel: { fontSize: 12, color: '#758078', marginTop: 3 },
+  listHeader: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginBottom: 12 }, sectionTitle: { fontSize: 16, fontWeight: '700', color: '#26352B' }, count: { color: '#7C877F', fontSize: 12 },
+  productCard: { backgroundColor: '#FFFFFF', borderRadius: 14, padding: 13, flexDirection: 'row', alignItems: 'center', marginBottom: 10, elevation: 1 }, productIcon: { width: 43, height: 43, borderRadius: 12, backgroundColor: '#EAF4ED', alignItems: 'center', justifyContent: 'center', marginRight: 11 }, productInfo: { flex: 1 }, productName: { fontSize: 14, fontWeight: '700', color: '#26352B' }, category: { fontSize: 11, color: '#89938C', marginTop: 3, marginBottom: 7 },
+  status: { alignSelf: 'flex-start', flexDirection: 'row', alignItems: 'center', gap: 5, borderRadius: 20, paddingVertical: 4, paddingHorizontal: 8 }, okStatus: { backgroundColor: '#E8F5EC' }, lowStatus: { backgroundColor: '#FFF0E4' }, dot: { width: 6, height: 6, borderRadius: 3 }, okDot: { backgroundColor: '#2D945A' }, lowDot: { backgroundColor: '#C16A2B' }, statusText: { fontSize: 10, fontWeight: '600' }, okText: { color: '#287A55' }, lowText: { color: '#B45E24' },
+  quantityBox: { alignItems: 'center', minWidth: 48, marginLeft: 8 }, quantity: { fontSize: 22, fontWeight: '800', color: '#26352B' }, unit: { fontSize: 9, color: '#89938C' }, footer: { textAlign: 'center', fontSize: 11, color: '#9AA39C', marginTop: 12 }
+});
